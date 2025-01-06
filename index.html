@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <!-- Boostrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Fontawesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init({
+          publicKey: "tejKtVSKZ5MEQsAcr",
+        });
+    })();
+  </script>
+  </head>
+  <body data-bs-spy = "scroll" data-bs-target = ".navbar">
+    <!-- Navbar -->
+    <header>
+      <nav class="navbar navbar-expand-lg navigation-wrap">
+        <div class="container-fluid px-0">
+          <a class="navbar-brand my-auto" href="#"
+            ><img src="/images/logo.png" alt=""/></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="#top-banner"
+                  >Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Top Banner Section -->
+    <section id="top-banner">
+      <div class="top-banner-section">
+        <div class="profile">
+          <img
+            src="images/profile/profile-new-1.png"
+            class="profile-img"
+            alt=""
+          />
+          <div class="icons">
+            <img src="images/icons/network icon.png" data-depth="2.5" alt="" />
+            <img src="images/icons/handshake icon.png" data-depth="2" alt="" />
+            <img src="images/icons/idea icon.png" data-depth="3" alt="" />
+            <img src="images/icons/money icon.png" data-depth="4" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+  
+    <!-- About Section -->
+    <section id="about">
+      <div class="about-section">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-5 col-12 mb-md-0 mb-4">
+              <div class="about-img">
+                <img src="images/profile/profile-new-2.png" alt="profile-pos-2.png"/>
+              </div>
+            </div>
+            <div class="col-md-7 col-12">
+              <div class="text-content text-left">
+                <h1>NIKITA</h1>
+                <h2>Content Creator</h2>
+                <div class="horizontal-line"></div>
+                <p>Constantly learning and growing, with a focus on delivering value and making meaningful connections. I believe in progress, authenticity, and staying true to my passion.</p>
+                <a href="#skills"><p class="highlight">
+                  <span style="color: var(--primary-color); font-size:1.25rem">"</span>Being better each day.<span style="color: var(--primary-color);">"</span>
+                </p></a>
+              </div>
+            </div>  
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- Skills Section -->
+    <section id="skills">
+      <div class="skill-section">
+        <div class="container-lg container-fluid text-center">
+          <h1 class="tag-line">WHAT I <span style="color: var(--primary-color);">KNOW.</span></h1>
+          <div class="content">
+            <div class="btn-tag">
+              <button class="btn btn-dark rounded-pill px-5 py-3" type="button">Skills</button>
+              <hr>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <img src="/images/icons/skills/content creator.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Content Creator</h5>
+                    <p class="card-text">
+                      Creating contents that inspire and ignite wills to Grow.
+                    </p>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <img src="/images/icons/skills/video editor.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">video editor</h5>
+                    <p class="card-text">
+                      Editing visuals to tell authentic stories that connect and engage.
+                    </p>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <img src="/images/icons/skills/ads.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">ADs Marketing</h5>
+                    <p class="card-text">
+                      Creating thoughtful campaigns that connect with audiences and foster growth.
+                    </p>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <img src="/images/icons/skills/marketing.png" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <h5 class="card-title">Digital Marketing</h5>
+                    <p class="card-text">
+                      Building meaningful connections through strategic online presence.
+                    </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <p style="color: var(--dark-color); font-style: italic;">and much more.... ;)</p>
+        </div>
+      </div>
+    </section>
+
+    
+
+  <!-- connections Section -->
+    <section id="counter">
+      <div class="counter-section">
+        <div class="container-lg container-fluid text-center">
+          <h1 class="tag-line">MY<span style="color: var(--primary-color);">HORIZON.</span></h1>
+          <div class="content">
+            <div class="btn-tag">
+              <button class="btn btn-dark rounded-pill px-5 py-3" type="button">Connections/Work</button>
+              <hr>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <div class="counter-circle">
+                    <h1><span id="count1">0</span>+</h1>
+                  </div>
+                  <h3>social connections</h3>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <div class="counter-circle">
+                    <h1><span id="count2">0</span>+</h1>
+                  </div>
+                  <h3>content uploaded</h3>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <div class="counter-circle">
+                    <h1><span id="count3">0</span>+</h1>
+                  </div>
+                  <h3>team members</h3>
+                </div>
+              </div>
+              <div class="col-md-3 col-6 mb-md-0 mb-4">
+                <div class="card">
+                  <div class="counter-circle">
+                    <h1><span id="count4">0</span>+</h1>
+                  </div>
+                  <h3>leads served</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- <a href="#glimpse" style="color: var(--dark-color); font-style: italic;" class="text-center">and my team.... :)</a> -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- slider -->
+     <!-- <section id="glimpse">
+      <div class="slider-section">
+        <div class="slide-track">
+           <div class="slide">
+            <div class="item"><img src="images/slider/1.png" alt=""></div>
+            <div class="item"><img src="images/slider/2.png" alt=""></div>
+            <div class="item"><img src="images/slider/3.png" alt=""></div>
+            <div class="item"><img src="images/slider/4.png" alt=""></div>
+            <div class="item"><img src="images/slider/5.png" alt=""></div>
+            <div class="item"><img src="images/slider/6.png" alt=""></div>
+            <div class="item"><img src="images/slider/7.png" alt=""></div>
+            <div class="item"><img src="images/slider/4.png" alt=""></div>
+            <div class="item"><img src="images/slider/2.png" alt=""></div>
+            <div class="item"><img src="images/slider/3.png" alt=""></div>
+           </div>
+        </div>
+      </div>
+     </section>
+ -->
+
+
+
+    <!-- Intro Section -->
+<!-- 
+    <section id="intro">
+      <div class="intro-section">
+        <div class="profile">
+          <img src="/images/ni logo/ni static filled icon.png" alt="" />
+        </div>
+        <div class="container text-center">
+          <div class="text-content">
+            <h1>
+              Connect,<br />Network and <br /><span>Grow your Business</span>
+            </h1>
+            <h2>
+              With me
+              <img
+                src="images/landing page/landing profile.png"
+                class="my-auto"
+              />
+            </h2>
+          </div>
+
+          <div class="btn-box row mt-5">
+            <div class="d-grid gap-2 d-md-block">
+              <a href="https://www.instagram.com" class="btn btn-dark rounded-pill px-5" type="button">
+                Get in touch <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+              <a href="#about" class="btn btn-dark rounded-pill px-5" type="button">
+                Me <i class="fa-solid fa-arrow-right-long"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+
+
+    <!-- Contact Section -->
+
+    <section id="contact">
+      <div class="contact-section">
+        <div class="container">
+          <h1 class="tag-line text-center">Further<span>Meeting.</span></h1>
+    
+          <!-- Buttons Section -->
+          <div class="link-box text-center">
+            <a href="https://www.instagram.com/annil_ver2.0/" class="btn btn-dark rounded-pill px-5 py-4 mb-4 mb-md-0" type="button">
+              Instagram <i class="fa-brands fa-instagram"></i>
+            </a>
+            <!-- Button to Open Modal -->
+            <button class="btn btn-dark rounded-pill px-5 py-4" data-bs-toggle="modal" data-bs-target="#emailModal" type="button">
+              Instant Email <i class="fa-solid fa-envelope"></i>
+            </button>
+          </div>
+    
+          <!-- Modal Structure -->
+          <div class="modal fade" id="emailModal" tabindex="-1" aria-labelledby="emailModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                  <h5 class="modal-title" id="emailModalLabel">Contact Form</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <!-- Modal Body -->
+                <div class="modal-body">
+                  <form action="/">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="mobile" class="form-label">Mobile Number</label>
+                      <input type="tel" class="form-control" id="phone_no" placeholder="Enter your mobile number" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email ID</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="instagram" class="form-label">Instagram ID</label>
+                      <input type="text" class="form-control" id="insta_id" placeholder="Enter your Instagram ID">
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button"  class="btn btn-dark rounded-pill px-5 py-2" style="border: none;" data-bs-dismiss="modal">Close</button>
+                      <button type="submit" class="btn btn-dark rounded-pill px-5 py-2" style="color: var(--dark-color); background-color: var(--primary-color); border: none;" onclick="sendEmail()">Send</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!-- special -->
+    <!-- Audio Player Section -->
+    <section id="audio-player">
+      <div class="audio-player-section">
+        <div class="container text-center">
+          <h2 class="tag-line">Some of my <span style="color: var(--primary-color);">special songs for this special Dost 🤍</span></h2>
+          <div class="content">
+            <div class="btn-tag">
+              <button class="btn btn-dark rounded-pill px-5 py-3" type="button">Listen</button>
+              <hr>
+            </div>
+            <div class="row mt-5">
+              <div class="col-md-3 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Ek Jam 🥂</h5>
+                    <audio controls class="w-100 rounded-pill">
+                      <source src="musics/tu hain toh.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Dosti 🤍</h5>
+                    <audio controls class="w-100 rounded-pill">
+                      <source src="musics/mannat.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Ke 🎉</h5>
+                    <audio controls class="w-100 rounded-pill">
+                      <source src="musics/aakhiyaan.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-12 mb-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Naam ✨</h5>
+                    <audio controls class="w-100 rounded-pill">
+                      <source src="musics/saajna.mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                    </audio>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h5>It will vanish automatically after 24 hours :)</h5>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Design -->
+    <footer>
+      <div class="footer-section">
+        <div class="container text-center">
+          <p style="font-style: italic; text-align: center;">:)</p>
+          <p>&copy; 2025 NIKITA🤍. All Rights Reserved.</p>
+        </div>
+      </div>
+    
+
+
+    <!-- Bootstrap Javascript -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+      integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>

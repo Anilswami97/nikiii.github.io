@@ -1,0 +1,483 @@
+@media (max-width: 1199px) {
+  /* Navbar Design */
+
+  /* Top Banner */
+
+  .top-banner-section{
+    padding-top: 5rem;
+  }
+
+  .top-banner-section .profile .profile-img {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 45%;
+    width: 50%;
+    height: auto;
+  }
+
+  /* About section */
+
+  .about-section .text-content {
+    width: 100%;
+  }
+
+  .about-section .about-img img{
+    width: 75%;
+    height: auto;
+  }
+
+  .about-section .text-content h1{
+    font-size: 5rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+  }
+  
+  .about-section .text-content h2{
+    font-size: 3rem;
+    font-family: var(--primary-font);
+    margin-bottom: 0;
+  }
+  
+  .about-section .text-content p{
+    font-size: 19px; 
+    margin-top: 1.725rem;
+  }
+
+  /* Skills Section */
+  .skill-section .content .card img {
+    width: 19%;
+    height: auto;
+  }
+
+  /* Counter Section */
+  .counter-section .content .card .counter-circle {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    border-radius: 50%;
+    background: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter-section .content .card .counter-circle h1 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 0 !important;
+    font-size: 2.8rem;
+  }
+}
+
+@media (max-width: 991px) {
+  /* Navbar Design */
+  .navigation-wrap .navbar-nav {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0.126rem 2.9176rem;
+    border-radius: 0;
+  }
+
+  .navbar-nav .nav-item {
+    margin: 0 0 0.725rem 0;
+  }
+
+  .navigation-wrap .navbar-toggler {
+    margin-right: 1.976rem;
+  }
+
+  /* Top Banner */
+  .top-banner-section .profile .profile-img {
+    width: 67%;
+  }
+
+  /* About section */
+
+  .about-section .text-content {
+    width: 80%;
+    margin: auto;
+  }
+
+  .about-section .about-img img{
+    width: 100%;
+    height: auto;
+  }
+
+  .about-section .text-content h1{
+    font-size: 4.8rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+  }
+  
+  .about-section .text-content h2{
+    font-size: 2.5rem;
+    font-family: var(--primary-font);
+    margin-bottom: 0;
+  }
+  
+  .about-section .text-content p{
+    font-size: 17px; 
+    margin-top: 1.725rem;
+  }
+
+  /* Skills Section */
+  .skill-section .content .card {
+    border: none;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 1.5rem 0;
+  }
+
+  .skill-section .content .card img {
+    width: 25%;
+    height: auto;
+  }
+
+  /* Counter Section */
+
+  #counter {
+    padding-top: 3rem;
+  }
+  .counter-section {
+    margin-top: 3rem;
+  }
+  .counter-section .content .card .counter-circle {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+    background: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter-section .content .card .counter-circle h1 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 0 !important;
+    font-size: 2.3rem;
+  }
+}
+
+@media (max-width: 767px) {
+  /* Navbar Design */
+
+  /* Top Banner */
+  .top-banner-section .profile .profile-img {
+    width: 60%;
+  }
+
+  /* Intro Section */
+  .intro-section .profile img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* About Section */
+  .about-section{
+    padding-top: 6rem;
+  }
+  .about-section .text-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-section .text-content h1{
+    font-size: 4.3rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+  }
+  
+  .about-section .text-content h2{
+    font-size: 2.2rem;
+    font-family: var(--primary-font);
+    margin-bottom: 0;
+  }
+  
+  .about-section .text-content p{
+    font-size: 17px; 
+    margin-top: 1.725rem;
+  }
+
+  .about-section .about-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-section .about-img img{
+    width: 45%;
+    height: auto;
+  }
+
+  /* Skills Section */
+  #skills{
+    margin-top:9rem;
+  }
+
+  .skill-section{
+    margin-top: 4rem;
+  }
+
+  .skill-section .content .card {
+    border: none;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 1.5rem 0;
+  }
+
+  .skill-section .content .card img {
+    width: 18%;
+    height: auto;
+  }
+
+  /* Counter Section */
+
+  #counter {
+    padding-top: 12rem;
+  }
+  .counter-section {
+    margin-top: 12rem;
+  }
+  .counter-section .tag-line {
+    font-size: 3.5rem;
+  }
+  .counter-section .content .card .counter-circle {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter-section .content .card .counter-circle h1 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 0 !important;
+    font-size: 1.9rem;
+  }
+}
+
+@media (max-width: 575px) {
+  /* Navbar Design */
+  .navigation-wrap .navbar-brand img {
+    width: 60px;
+    height: auto;
+  }
+
+  .navigation-wrap .navbar-toggler {
+    margin-right: 1.376rem;
+  }
+
+  /* Top Banner */
+  .top-banner-section .profile .profile-img {
+    width: 120%;
+  }
+
+  /* Intro Section */
+  .intro-section .text-content h1 {
+    font-size: 4rem;
+  }
+
+  .intro-section .profile img {
+    width: 130%;
+    height: auto;
+  }
+
+  /* About Section */
+  .about-section .text-content {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-section .text-content h1{
+    font-size: 4rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+  }
+  
+  .about-section .text-content h2{
+    font-size: 2.1rem;
+    font-family: var(--primary-font);
+    margin-bottom: 0;
+  }
+  
+  .about-section .text-content p{
+    font-size: 17px; 
+    margin-top: 1.725rem;
+  }
+
+  .about-section .about-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-section .about-img img{
+    width: 55%;
+    height: auto;
+  }
+
+  /* Skills Section */
+  .skill-section .content .card {
+    border: none;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 1.5rem 0;
+  }
+
+  .skill-section .tag-line{
+    font-size: 3.5rem;
+  }
+
+  .skill-section .content .card img {
+    width: 20%;
+    height: auto;
+  }
+}
+
+@media (max-width: 449px) {
+  /* Navbar Design */
+  .navigation-wrap .navbar-brand img {
+    width: 50px;
+    height: auto;
+  }
+
+  /* Top Banner */
+  .top-banner-section .profile .profile-img {
+    width: 100%;
+  }
+
+  .top-banner-section .icons img:nth-child(2) {
+    left: 20%;
+    bottom: 15%;
+  }
+
+  .top-banner-section .icons img:nth-child(1) {
+    left: 20%;
+    top: 15%;
+  }
+
+  .top-banner-section .icons img:nth-child(3) {
+    left: 80%;
+    top: 10%;
+  }
+
+  .top-banner-section .icons img:nth-child(1) {
+    left: 20%;
+    top: 15%;
+  }
+
+  /* Intro Section */
+  .intro-section .profile img {
+    width: 150%;
+    height: auto;
+  }
+
+  /* About Section */
+  .about-section .text-content {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .about-section .text-content h1{
+    font-size: 3.5rem;
+    color: var(--primary-color);
+    font-family: var(--primary-font);
+    margin-bottom: 1rem;
+  }
+  
+  .about-section .text-content h2{
+    font-size: 1.8rem;
+    font-family: var(--primary-font);
+    margin-bottom: 0;
+  }
+  
+  .about-section .text-content p{
+    font-size: 16px; 
+    margin-top: 1.725rem;
+  }
+
+  .about-section .about-img {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .about-section .about-img img{
+    width: 85%;
+    height: auto;
+  }
+
+  /* Skills Section */
+  #skills{
+    padding-top: 2.8rem;
+  }
+  .skill-section{
+    margin-top: 3rem;
+  }
+
+  .skill-section .tag-line{
+    font-size: 3rem;
+  }
+  .skill-section .content .card {
+    border: none;
+    width: 100%;
+    margin: auto;
+    text-align: left;
+    padding: 1.5rem 0.123rem;
+  }
+
+  .skill-section .content .card img {
+    width: 23%;
+    height: auto;
+  }
+
+
+  
+  /* Counter Section */
+
+  #counter {
+    padding-top: 7rem;
+  }
+  .counter-section {
+    margin-top: 4rem;
+  }
+  .counter-section .tag-line {
+    font-size: 3rem;
+  }
+  .counter-section .content .card .counter-circle {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    border-radius: 50%;
+    background: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .counter-section .content .card .counter-circle h1 {
+    color: var(--primary-color);
+    text-transform: capitalize;
+    margin-bottom: 0 !important;
+    font-size: 1.9rem;
+  }
+  .counter-section .content .card h3{
+    font-size: 1rem;
+    margin-top: 1.3rem;
+  }
+
+  /* Contact Section */
+  .contact-section .tag-line {
+    font-size: 3rem;
+  }
+}
