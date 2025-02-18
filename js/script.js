@@ -121,7 +121,7 @@ function sendEmail() {
 
 document.addEventListener("DOMContentLoaded", function() {
     const currentDate = new Date();
-    const vanishDate = new Date("2025-02-21");
+    const vanishDate = new Date("2025-01-01");
 
     if (currentDate > vanishDate) {
       const audioPlayerSection = document.getElementById("audio-player");
